@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to Logitech</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+    }
+    header {
+      background-color: #4CAF50;
+      padding: 20px;
+      color: white;
+      text-align: center;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+    }
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+    }
+    .product {
+      margin-bottom: 20px;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .product img {
+      max-width: 100%;
+      border-radius: 5px;
+    }
+    form {
+      margin-top: 20px;
+    }
+    h2 {
+      color: #4CAF50;
+    }
+    /* Fix for low contrast */
+    input,
+    textarea,
+    a {
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Logitech</h1>
+    <nav>
+      <a href="#" style="color: #333;">About</a>
+      <a href="#" style="color: #333;">Products</a>
+    </nav>
+  </header>
+  <div class="container">
+    <h2>Our Products</h2>
+    <div class="product">
+      <img src="mouse.jpg" alt="Wireless Mouse">
+      <p>Enhance your productivity with our ergonomic wireless mouse. Say goodbye to tangled wires.</p>
+    </div>
+    <div class="product">
+      <img src="keyboard.jpg" alt="Wireless Keyboard">
+      <p>Experience seamless typing with our whisper-quiet wireless keyboard. Work without disturbing others.</p>
+    </div>
+    <div class="product">
+      <img src="headset.jpg" alt="Wireless Headset">
+      <p>Enjoy crystal-clear sound and comfort during long gaming sessions with our wireless gaming headset.</p>
+    </div>
+    <div class="product">
+      <img src="webcam.jpg" alt="Webcam">
+      <p>Stay connected with your loved ones with our high-definition webcam. Perfect for video calls and streaming.</p>
+    </div>
+    <div class="product">
+      <img src="speaker.jpg" alt="Wireless Speaker">
+      <p>Immerse yourself in rich audio with our portable wireless speaker. Perfect for outdoor adventures and parties.</p>
+    </div>
+    <div class="product">
+      <img src="tablet.jpg" alt="Graphic Tablet">
+      <p>Unleash your creativity with our advanced graphic tablet. Ideal for digital artists and designers.</p>
+    </div>
+    <h2>About Logitech</h2>
+    <p>Logitech is a global provider of personal computer and mobile accessories. With a focus on innovation and quality, we strive to enhance your digital experience through our range of products including mice, keyboards, headsets, webcams, speakers, and graphic tablets.</p>
+    <form>
+      <h2>Contact Us</h2>
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" placeholder="Enter your name"><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" placeholder="Enter your email"><br>
+      <label for="message">Message:</label><br>
+      <textarea id="message" placeholder="Enter your message"></textarea><br>
+      <button type="submit">Send</button>
+    </form>
+  </div>
+  <footer>
+    &copy; 2024 Logitech. All rights reserved.
+  </footer>
+</body>
+</html>
